@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>register form</title>
+</head>
+<body>
+    <div style="background-image: url('bgimg.jpg');" class="h-screen w-full bg-cover bg-center flex justify-center items-center">
+        <form action="" class="w-11/12 md:w-3/6 lg:w-3/6 backdrop-blur-lg p-5 my-4 rounded-md bg-opacity-50 drop-shadow-lg">
+            <div class="mb-2 flex flex-col lg:flex-row lg:items-center lg:justify-between">
+                <label class="text-white mb-2 text-xl">Email</label>
+                <input type="email" class="p-2 rounded-md text-white focus:outline-none bg-transparent  border-[1px] border-white lg:w-9/12" placeholder="Enter your email">
+            </div>
+            <div class="mb-2 flex flex-col lg:flex-row lg:items-center lg:justify-between">
+                <label class="text-white mb-2 text-xl">Password</label>
+                <input type="password" class="p-2 rounded-md text-white focus:outline-none bg-transparent border-[1px] border-white lg:w-9/12" placeholder="Enter your password">
+            </div>
+            <div class="flex justify-end gap-5 my-6">
+                <button class="bg-gradient-to-r from-red-600 to-pink-400 hover:from-pink-600 hover:to-red-300 text-white p-2 rounded-md mr-2">Cancel</button>
+                <button class="bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-blue-300 text-white py-2 px-6 rounded-md">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
